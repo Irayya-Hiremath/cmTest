@@ -1,0 +1,72 @@
+.button_bg {
+  background-color: rgb(216, 218, 223) !important;
+}
+button {
+  color: black !important;
+  border: none !important;
+  background-color: rgb(240, 242, 245) !important;
+  max-height: 50px !important;
+  text-align: center !important;
+  font-size: small !important;
+  text-decoration: none !important;
+}
+
+.postButton {
+  background-color: rgb(75, 135, 200) !important;
+  width: 20% !important;
+  text-align: center !important;
+  color: white !important;
+  font-size: larger !important;
+  margin-left: 80% !important;
+}
+
+.accordion-button {
+  height: 30px !important;
+}
+.button:onclick {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+button:hover {
+  border: none !important;
+}
+img,
+svg {
+  color: rgb(107, 108, 110) !important;
+  margin: 0.5rem;
+}
+
+.form-control:hover,
+.form-select:hover {
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3 !important;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
+}
+.layout {
+  background-color: rgb(75, 135, 200);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.form-control {
+  border: none !important;
+}
+.form-control:active {
+  border: none !important;
+  box-shadow: none !important;
+}
+.form-control::before {
+  border: none !important;
+  box-shadow: none !important;
+}
+.cards_box {
+  overflow: scroll !important;
+  height: 50% !important;
+}
