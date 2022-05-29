@@ -1,18 +1,17 @@
 import React from 'react'
-import Postbox from './Postbox'
+import { Container } from 'react-bootstrap'
 
 
 function Layout({children}) {
   return (
-    <div className='layout'>
+    <Container className='layout'>
 
-        {/* <Postbox/> */}
 
         {children}
 
        
 
-    </div>
+    </Container>
   )
 }
 

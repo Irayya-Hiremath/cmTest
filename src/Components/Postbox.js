@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button,Row,Card,Container,InputGroup,FormControl,Form,Accordion } from 'react-bootstrap';
+import { Button,Row,Card,Container,Form,Accordion } from 'react-bootstrap';
 import Layout from './Layout'
-import { FaMarker,FaRegImage,FaVideo,FaUserTag,FaMapMarkerAlt,FaCalendarCheck,FaUserCircle} from 'react-icons/fa';
+import { FaMarker,FaRegImage,FaVideo,FaUserTag,FaMapMarkerAlt,FaCalendarCheck} from 'react-icons/fa';
 import { AiOutlineGif} from "react-icons/ai";
 import { useState } from 'react';
 import Newsfeed from './Newsfeed';
@@ -60,11 +60,11 @@ function postdata(e){
     <Layout >
       <Container className='my-2'>
               <Row className='m-auto'>
-                  <Card className='Post_box col-6 m-auto px-4 py-1 border border-radius-5'>
+                  <Card className='Post_box col-lg-6 col-12 m-auto px-4 py-1 border border-radius-5'>
                       <div className='button_box row d-flex d-flex justify-content-between'>
-                        <Button className='col-3 ml-1'> <FaMarker/>Compose Post</Button>
+                        <Button className='col-4 ml-1'> <FaMarker/>Compose Post</Button>
                         <Button className='col-3 ml-1'> <FaRegImage/>Photo/Video</Button>
-                        <Button className='col-3 ml-1'> <FaVideo/>Live Video</Button>
+                        <Button className='col-4 ml-1'> <FaVideo/>Live Video</Button>
                       </div>
                       
                       <Card.Body>
